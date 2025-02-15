@@ -1,11 +1,35 @@
 {
   "name": "midnight-dream",
   "displayName": "Midnight Dream",
-  "description": "Blue and gold color theme",
-  "version": "0.0.1",
+  "description": "Blue and Gold Color Theme",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrisMartinezDeveloper/midnight-dream.git"
+  },
+  "keywords": [
+    "blue",
+    "gold",
+    "orange",
+    "yellow",
+    "midnight",
+    "dream",
+    "midnight dream",
+    "color",
+    "theme",
+    "color theme",
+    "dark",
+    "dark theme",
+    "chris",
+    "martinez",
+    "dev",
+    "chrisMartinezDev",
+    "chrisMartinezDev dark"
+  ],
   "engines": {
     "vscode": "^1.97.0"
   },
+  "icon": "src/photos/icon.png",
   "categories": [
     "Themes"
   ],
