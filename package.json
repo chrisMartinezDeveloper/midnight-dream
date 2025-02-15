@@ -1,0 +1,21 @@
+{
+  "name": "midnight-dream",
+  "displayName": "Midnight Dream",
+  "description": "Blue and gold color theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.97.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Midnight Dream",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Midnight Dream-color-theme.json"
+      }
+    ]
+  }
+}
