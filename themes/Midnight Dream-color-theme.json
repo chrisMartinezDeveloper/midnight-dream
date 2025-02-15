@@ -1,18 +1,18 @@
 {
-	"name": "Your Majesty",
+	"name": "Midnight Dream",
 	"colors": {
 		"window.activeBorder": "#010f1a",
 		"focusBorder": "#bc9876",
 		"icon.foreground": "#a8bacb",
-		"titleBar.activeBackground": "#11061a",
+		"titleBar.activeBackground": "#060d1a",
 		"titleBar.activeForeground": "#a8bacb",
-		"activityBar.background": "#11061a",
+		"activityBar.background": "#060d1a",
 		"activityBar.border": "#83714d80",
 		"activityBar.foreground": "#bc9876",
 		"activityBarBadge.foreground": "#bc9876",
 		"toolbar.hoverOutline": "#bc9876",
 		"debugToolBar.border": "#bc9876",
-		"sideBar.background": "#11061a",
+		"sideBar.background": "#060d1a",
 		"sideBar.foreground": "#bc9876",
 		"gitDecoration.modifiedResourceForeground": "#bc9876",
 		"sideBar.border": "#83714d80",
@@ -23,16 +23,16 @@
 		"list.inactiveSelectionBackground": "#3c62578c",
 		"list.focusOutline": "#223e54",
 		"list.focusHighlightForeground": "#d00000",
-		"editorGroupHeader.tabsBackground": "#11061a",
+		"editorGroupHeader.tabsBackground": "#060d1a",
 		"editorGroupHeader.tabsBorder": "#83714d80",
 		"tab.activeBackground": "#3c625797",
 		"tab.activeForeground": "#bc9876",
-		"tab.inactiveBackground": "#11061a",
+		"tab.inactiveBackground": "#060d1a",
 		"tab.inactiveForeground": "#d2c2c47b",
 		"tab.border": "#6a5a3a80",
-		"editor.background": "#11061a",
+		"editor.background": "#060d1a",
 		"editor.foreground": "#bc9876",
-		"editorLineNumber.foreground": "#5a566bdb",
+		"editorLineNumber.foreground": "#56586bdb",
 		"editorLineNumber.activeForeground": "#bc9876",
 		"editor.lineHighlightBorder": "#444350a0",
 		"editorCursor.background": "#d2c2c47b",
@@ -41,9 +41,9 @@
 		"editor.wordHighlightBackground": "#386ea165",
 		"editor.selectionHighlightBackground": "#bc987650",
 		"editorGroup.border": "#83714d80",
-		"editorBracketHighlight.foreground1": "#705d86db",
-		"editorBracketHighlight.foreground2": "#705d86db",
-		"editorBracketHighlight.foreground3": "#705d86db",
+		"editorBracketHighlight.foreground1": "#5d6d86db",
+		"editorBracketHighlight.foreground2": "#5d6d86db",
+		"editorBracketHighlight.foreground3": "#5d6d86db",
 		// "editorBracketHighlight.foreground2": "#72947c",
 		"editorBracketMatch.border": "#4a7692",
 		"editorSuggestWidget.focusHighlightForeground": "#f273b7",
@@ -53,7 +53,7 @@
 		"scrollbarSlider.background": "#c2e6d53b",
 		"scrollbarSlider.hoverBackground": "#b29f7c30",
 		"scrollbarSlider.activeBackground": "#83714d6a",
-		"activityBarBadge.background": "#11061a",
+		"activityBarBadge.background": "#060d1a",
 		"sideBarTitle.foreground": "#bc9876"
 	  },
 	  "tokenColors": [
@@ -62,21 +62,21 @@
 		  "scope": ["comment", "punctuation.definition.comment"],
 		  "settings": {
 			"fontStyle": "italic",
-			"foreground": "#4e4864ee"
+			"foreground": "#5D6D86DB"
 		  }
 		},
 		{
 		  "name": "Variables",
 		  "scope": ["variable", "string constant.other.placeholder"],
 		  "settings": {
-			"foreground": "#de7d6ff3"
+			"foreground": "#e6d5bef3"
 		  }
 		},
 		{
 		  "name": "Strings",
 		  "scope": ["string"],
 		  "settings": {
-			"foreground": "#A98AB4"
+			"foreground": "#90b0c7"
 		  }
 		},
 		{
@@ -156,14 +156,19 @@
 			"keyword.other.substitution"
 		  ],
 		  "settings": {
-			"foreground": "#705d86db"
+			"foreground": "#5d6d86db"
 		  }
 		},
 		{
 		  "name": "Operator: Equals",
-		  "scope": ["keyword.operator.assignment"],
+		  "scope": [
+			"keyword.operator.assignment", 
+			"keyword.operator.arithmetic", 
+			"keyword.operator.relational",
+			"keyword.operator.comparison"
+		  ],
 		  "settings": {
-			"foreground": "#705d86db"
+			"foreground": "#5d6d86db"
 		  }
 		},
 		{
@@ -194,7 +199,7 @@
 			"keyword.other.special-method"
 		  ],
 		  "settings": {
-			"foreground": "#e25990ef"
+			"foreground": "#d0689fef"
 		  }
 		},
 		{
@@ -208,7 +213,7 @@
 		  "name": "Block Level Variables",
 		  "scope": ["meta.block variable.other"],
 		  "settings": {
-			"foreground": "#de7d6ff3"
+			"foreground": "#e6d5bef3"
 		  }
 		},
 		{
@@ -229,21 +234,21 @@
 		  "name": "Function: Parameters",
 		  "scope": ["variable.parameter"],
 		  "settings": {
-			"foreground": "#de7d6ff3"
+			"foreground": "#e6d5bef3"
 		  }
 		},
 		{
 		  "name": "Function: Parameters",
 		  "scope": ["constant.numeric.decimal"],
 		  "settings": {
-			"foreground": "#A98AB4"
+			"foreground": "#90B0C7"
 		  }
 		},
 		{
 		  "name": "Function: Parameters",
 		  "scope": ["variable.parameter"],
 		  "settings": {
-			"foreground": "#de7d6ff3"
+			"foreground": "#e6d5bef3"
 		  }
 		},
 		{
@@ -258,7 +263,7 @@
 			"keyword.other"
 		  ],
 		  "settings": {
-			"foreground": "#de7d6ff3"
+			"foreground": "#e6d5bef3"
 		  }
 		},
 		{
@@ -307,7 +312,7 @@
 		  "name": "Entity Types",
 		  "scope": ["support.type"],
 		  "settings": {
-			"foreground": "#d6d1c9db"
+			"foreground": "#e4d8c89c"
 		  }
 		},
 		{
@@ -321,7 +326,7 @@
 			"source.postcss support.type.property-name"
 		  ],
 		  "settings": {
-			"foreground": "#d6d1c9db"
+			"foreground": "#e4d8c89c"
 		  }
 		},
 		{
@@ -365,7 +370,7 @@
 		  "name": "Attributes",
 		  "scope": ["entity.other.attribute-name"],
 		  "settings": {
-			"foreground": "#de7d6ff3"
+			"foreground": "#e6d5bef3"
 		  }
 		},
 		{
@@ -390,7 +395,7 @@
 		  "name": "CSS ID Attributes",
 		  "scope": ["constant.other.color.rgb-value.hex.css"],
 		  "settings": {
-			"foreground": "#705d86db"
+			"foreground": "#5d6d86db"
 		  }
 		},
 		{
@@ -484,7 +489,7 @@
 			"punctuation.definition.string",
 		  ],
 		  "settings": {
-			"foreground": "#705d86db"
+			"foreground": "#5d6d86db"
 		  }
 		},
 		{
@@ -493,7 +498,7 @@
 			"source.json meta.structure.dictionary.json support.type.property-name.json"
 		  ],
 		  "settings": {
-			"foreground": "#de7d6ff3"
+			"foreground": "#e6d5bef3"
 		  }
 		},
 		{
@@ -502,7 +507,7 @@
 			"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 		  ],
 		  "settings": {
-			"foreground": "#de7d6ff3"
+			"foreground": "#e6d5bef3"
 		  }
 		},
 		{
@@ -511,7 +516,7 @@
 			"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 		  ],
 		  "settings": {
-			"foreground": "#de7d6ff3"
+			"foreground": "#e6d5bef3"
 		  }
 		},
 		{
@@ -520,7 +525,7 @@
 			"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 		  ],
 		  "settings": {
-			"foreground": "#de7d6ff3"
+			"foreground": "#e6d5bef3"
 		  }
 		},
 		{
